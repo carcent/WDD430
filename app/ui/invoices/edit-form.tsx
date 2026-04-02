@@ -10,7 +10,8 @@ import Link from 'next/link';
 import { Button } from '@/app/ui/button';
 import { updateInvoice } from '@/app/lib/actions';
 import { useActionState } from 'react';
-import { State } from '@/app/lib/actions';
+import type { State } from '@/app/lib/actions';
+
 
 const initialState: State = {
   message: null,
